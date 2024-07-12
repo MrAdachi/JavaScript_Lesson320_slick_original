@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel = "stylesheet" type = "text/css" href = "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel = "stylesheet" href = "style.css">
+        <title>HANKYU SLIDESHOW</title>
+    </head>
+    <body>
+        <div id = "key_visual">
+            <div class = "slider">
+                <div><img src = "images/hankyu1300.jpg" alt = "スライド画像(阪急1300系)"></div>
+                <div><img src = "images/hankyu1300_2.jpg" alt = "スライド画像(阪急1300系)"></div>
+                <div><img src = "images/hankyu9300.jpg" alt = "スライド画像(阪急9300系)"></div>
+                <div><img src = "images/semboku5000.jpg" alt = "スライド画像(泉北5000系)"></div>
+                <div><img src = "images/semboku5000_2.jpg" alt = "スライド画像(泉北5000系)"></div>
+            </div>
+        </div>
+        <script src = "https://code.jquery.com/jquery-3.7.1.min.js" integrity = "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin = "anonymous"></script>
+        <script type = "text/javascript" src = "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            $(function(){
+                $('.slider').slick({
+                    arrows: false,
+                    dots: true,
+                    autoplay: true
+                });
+            });
+        </script>
+    </body>
+</html>

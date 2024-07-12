@@ -1,0 +1,29 @@
+img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    visibility: hidden;
+}
+
+.slider.slick-initialized {
+    visibility: visible;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 36%;
+}
+
+.slick-next {
+    right: 36%;
+}
